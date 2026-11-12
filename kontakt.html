@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzerija Pet zvezd | Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="brand"><a href="index.html" class="brand-title">PIZZERIA PET ZVEZD</a>
+            <div class="stars">★★★★★</div>
+        </div>
+    </header>
+    <div class="page-layout">
+        <aside class="sidebar">
+            <nav aria-label="Glavna navigacija">
+                <a href="onas.html">O NAS</a><a href="meni.html">MENI</a><a class="active"
+                    href="kontakt.html">KONTAKT</a><a href="galerija.html">GALERIJA</a>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <section class="content-panel">
+                <p class="eyebrow">Z veseljem te pričakujemo</p>
+                <h1>Kontakt</h1>
+                <div class="contact-layout">
+                    <div class="contact-info">
+                        <h2>Obišči nas</h2>
+                        <p><strong>Naslov:</strong><br>Glavna ulica 5, Ribnica</p>
+                        <p><strong>Telefon:</strong><br>01 123 45 67</p>
+                        <p><strong>E-pošta:</strong><br>info@petzvezd.si</p>
+                        <p><strong>Delovni čas:</strong><br>Pon–Ned: 10.00–22.00</p>
+                    </div>
+                    <form class="contact-form" id="contact-form"><label for="name">Ime in priimek</label><input
+                            id="name" name="name" required placeholder="Tvoje ime">
+                        <label for="email">E-pošta</label><input id="email" name="email" type="email" required
+                            placeholder="ime@email.com">
+                        <label for="message">Sporočilo</label><textarea id="message" name="message" rows="5" required
+                            placeholder="Napiši nam sporočilo ..."></textarea>
+                        <button class="primary-button" type="submit">Pošlji sporočilo</button>
+                        <p id="form-message" class="form-message" aria-live="polite"></p>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="site-footer">© 2026 Pizzerija Pet zvezd · Vse pravice pridržane</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
